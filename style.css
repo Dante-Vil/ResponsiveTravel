@@ -45,7 +45,8 @@ html, body {
 }
 
 .tahitiLegend {
-  background-color: ;
+  background-color: #5f6686;
+  
 }
 
 /******* Header Styles *******/
@@ -62,6 +63,10 @@ h3 {
 }
 
 /******* Nav Styles *******/
+
+.tahitiHomeButton > a:link, .tahitiHomeButton:visited {
+  color: #104a77; 
+}
 
 nav > ul {
   margin: auto;
@@ -101,8 +106,17 @@ img {
 /******* Paragraph Styles *******/
 
 p {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.extraDescription {
+  display: none;
+}
+
+.tahitiLegendPar {
+  padding: 1%; 
+  text-align: left;
 }
 
 /******* Button Styles *******/
@@ -164,5 +178,33 @@ footer {
   }
 }
 
-
 /******* Desktop/laptop Styles *******/
+
+@media screen and (min-width: 1020px) {
+  .tahitiLegend {
+    display: block;
+  }
+
+  .Tahiti, .TahitiMeridien, .TahitiRomanticDinner {
+    display: initial;
+    width: 32%;
+  }
+
+  button {
+    padding: 15px;
+    font-size: 1.3em;
+  }
+
+  .bodycontainer {
+    font-size: 1.3em;
+  }
+
+  p {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .extraDescription {
+    display: block;
+  }
+}
