@@ -3,13 +3,13 @@
 
 html, body {
   margin: auto;
+  background-color: #559dc5;
 }
 
-/******* Container Styles *******/
+/******* Container/Division/Section Styles *******/
 
 .bodycontainer {
   margin: auto;
-  border: 1px solid black;
   height: 100vh;
   background-color: #559dc5;
   text-align: center;
@@ -22,11 +22,43 @@ html, body {
   background-color: #559dc5;
 }
 
+.extraInfoBoxes {
+  background-color: #559dc5;
+  display: none;
+  margin: auto;
+}
+
+.tahitiFacts, .tahitiLegend {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 5.5px;
+  font-size: 0.8em;
+  padding-bottom: 1px;
+  padding-top: 0
+}
+
+.tahitiFacts {
+  background-color: #cdc252;
+}
+
+.tahitiLegend {
+  background-color: ;
+}
+
 /******* Header Styles *******/
 h1 {
   font-family: cursive;
   text-align: center;
   color: #104a77;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 5px;
 }
 
 /******* Nav Styles *******/
@@ -56,6 +88,21 @@ a:hover, a:active {
 
 img {
   width: 100%;
+}
+
+.TahitiMeridien {
+  display: none;
+}
+
+.TahitiRomanticDinner {
+  display: none;
+}
+
+/******* Paragraph Styles *******/
+
+p {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /******* Button Styles *******/
@@ -93,6 +140,29 @@ footer {
 
 /******* Tablet Styles *******/
 
+@media screen and (min-width: 575px) {
+  nav > ul > li {
+    display: inline;
+  }
+
+  .bodycontainer {
+    font-size: 1.1em;
+  }
+
+  .extraInfoBoxes {
+    display: initial;
+  }
+
+  .tahitiLegend {
+    display: none;
+  }
+
+  .Tahiti, .TahitiMeridien {
+    display: initial;
+    width: 49%;
+    
+  }
+}
 
 
 /******* Desktop/laptop Styles *******/
