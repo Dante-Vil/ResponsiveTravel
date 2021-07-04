@@ -1,0 +1,98 @@
+
+/* Author: Dante Villarreal */
+
+html, body {
+  margin: auto;
+}
+
+/******* Container Styles *******/
+
+.bodycontainer {
+  margin: auto;
+  border: 1px solid black;
+  height: 100vh;
+  background-color: #559dc5;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  padding: 0;
+  color: white;
+}
+
+.div1 {
+  background-color: #559dc5;
+}
+
+/******* Header Styles *******/
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: #104a77;
+}
+
+/******* Nav Styles *******/
+
+nav > ul {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+nav > ul > li {
+  list-style: none;
+  padding: 4px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  color: #104a77;
+}
+
+/******* Image Styles *******/
+
+img {
+  width: 100%;
+}
+
+/******* Button Styles *******/
+
+button {
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  background-color: #2edddb;
+  color: #104a77;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  background-color: #104a77;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/******* Footer Styles *******/
+
+footer {
+  background-color: #104a77;
+  padding: 4px;
+  font-size: xx-small;
+  color: white;
+}
+
+
+
+/******* Responsive Styles *******/
+
+/******* Tablet Styles *******/
+
+
+
+/******* Desktop/laptop Styles *******/
